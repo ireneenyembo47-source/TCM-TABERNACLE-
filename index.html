@@ -22,17 +22,14 @@ header {
     gap: 15px;
 }
 
+
 .logo {
-    width: 65px;
-    height: 65px;
-    border: 3px solid white;
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
     animation: tourner 5s linear infinite;
-}
+    }
 
 @keyframes tourner {
     to { transform: rotate(360deg); }
@@ -64,7 +61,7 @@ button {
 <body>
 
 <header>
-    <div class="logo">TCM</div>
+    <img src="TCM_TABERNACLE_icône_rond.png" alt="Logo TCM" class="logo">
     <div>
         <h2>TCM TABERNACLE</h2>
         <p>La parole de Dieu pour tous</p>
